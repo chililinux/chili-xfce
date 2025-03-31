@@ -127,6 +127,18 @@ optdepends=(
 	bluez
 	bluez-utils
 	blueman
+  timeshift                # Ferramenta para criar snapshots incrementais do sistema.
+  grub-btrfs-timeshift     # Integra o Timeshift ao GRUB em sistemas Btrfs.
+  grub-btrfs               # Permite que o GRUB reconheça snapshots do Btrfs.
+  cups                     # Sistema de impressão comum no Linux.
+  system-config-printer    # Ferramenta gráfica para configurar e gerenciar impressoras.
+  splix                    # Driver de impressão para impressoras Samsung e Xerox.
+  samsung-unified-driver   # Drivers unificados para diversas impressoras Samsung.
+  cups-pdf                 # Extensão do CUPS para criar PDFs via impressão.
+  bigocrpdf                # Converte documentos PDF em texto editável via OCR.
+  bluez-cups               # Permite impressão via Bluetooth usando o BlueZ.
+  paru                     # AUR helper para instalação de pacotes do Arch User Repository.
+
 )
 
 # Automatically detect and use the correct install file
