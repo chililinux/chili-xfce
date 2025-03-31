@@ -4,8 +4,8 @@
 # shellcheck shell=bash disable=SC2034,SC2154
 
 # Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
-pkgname=chili-pkgname
-pkgdesc="Meta package for pkgname"
+pkgname=chili-xfce
+pkgdesc="Meta package for xfce"
 pkgver=$(date +%Y%m%d)
 pkgrel=$(date +%H%M)
 arch=('any')
@@ -13,8 +13,11 @@ license=('MIT')
 url="https://github.com/chililinux/${pkgname}"
 source=("git+${url}.git")
 md5sums=('SKIP')
-depends=()
-optdepends=()
+depends=(
+  xfce4
+)
+optdepends=(
+  xfce4-goodies
 )
 
 # Automatically detect and use the correct install file

@@ -1,2 +1,3 @@
-# pkgbuild-template-meta-package
-pkgbuild-template-meta-package
+# chili-xfce
+
+Meta package for XFCE
