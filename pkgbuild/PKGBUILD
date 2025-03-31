@@ -42,6 +42,7 @@ optdepends=(
 	xorg
 	xorg-drivers
 	xorg-fonts
+	xterm
   #
 	xorg-server   # Servidor gráfico Xorg.
 	xorg-xinit    # Iniciador para sessões X.

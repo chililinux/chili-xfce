@@ -243,17 +243,17 @@ post_install() {
 		msg "${yellow}Warning: No compatible GPU detected. Skipping driver installation.${reset}"
 	fi
 
-	msg "Create the ${DM^} user if it doesn't exist"
-	if ! id "${DM}" >/dev/null; then
-		msg "Creating ${DM^} user..."
-		useradd -r -s /usr/bin/nologin -M -d /var/lib/${DM} ${DM} &>/dev/null
-	else
-		msg "${yellow}${DM^} user already exists, skipping creation."
-	fi
-
-	msg "Setting up ${DM^} directory..."
-	mkdir -p /var/lib/${DM} >/dev/null
-	chown -R ${DM}:${DM} /var/lib/${DM} >/dev/null
+#	msg "Create the ${DM^} user if it doesn't exist"
+#	if ! id "${DM}" >/dev/null; then
+#		msg "Creating ${DM^} user..."
+#		useradd -r -s /usr/bin/nologin -M -d /var/lib/${DM} ${DM} &>/dev/null
+#	else
+#		msg "${yellow}${DM^} user already exists, skipping creation."
+#	fi
+#
+#	msg "Setting up ${DM^} directory..."
+#	mkdir -p /var/lib/${DM} >/dev/null
+#	chown -R ${DM}:${DM} /var/lib/${DM} >/dev/null
 
 	msg "Setting up user..."
 	user=$(awk -F: '$3 >= 1000 && $3 < 65000 { print $1; exit }' /etc/passwd)
