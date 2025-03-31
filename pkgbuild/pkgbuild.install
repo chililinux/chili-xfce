@@ -175,7 +175,6 @@ post_install() {
 
 	# Common packages for all GPUs
 	COMMON_PACKAGES=(
-		mhwd-biglinux
 		mesa
 		lib32-mesa
 		vulkan-mesa-layers
