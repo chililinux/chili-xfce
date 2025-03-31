@@ -18,6 +18,9 @@ depends=(
 )
 optdepends=(
   xfce4-goodies
+  lightdm
+  lightdm-settings
+  lightdm-slick-greeter
 )
 
 # Automatically detect and use the correct install file
