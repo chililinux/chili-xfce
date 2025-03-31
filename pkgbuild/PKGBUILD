@@ -14,30 +14,70 @@ url="https://github.com/chililinux/${pkgname}"
 source=("git+${url}.git")
 md5sums=('SKIP')
 depends=(
-  xfce4-session
+	xfce4-session
 )
 optdepends=(
-  exo 	#4.20.0-2 	Application library for the Xfce desktop environment 	2024-12-25 	
-  garcon 	#4.20.0-2 	Freedesktop.org compliant menu library 	2024-12-25 	
-  thunar 	#4.20.2-1 	Modern, fast and easy-to-use file manager for Xfce 	2025-02-14 	
-  thunar-volman 	#4.20.0-2 	Automatic management of removable drives and media for Thunar 	2024-12-25 	
-  tumbler 	#4.20.0-2 	Thumbnail service implementing the thumbnail management D-Bus specification 	2024-12-25 	
-  xfce4-appfinder 	#4.20.0-2 	Application launcher and finder 	2024-12-25 	
-  xfce4-panel 	#4.20.4-1 	Panel for the Xfce desktop environment 	2025-03-23 	
-  xfce4-power-manager 	#4.20.0-3 	Power Manager for Xfce 	2024-12-25 	
-  xfce4-session 	#4.20.2-1 	Xfce's session manager 	2025-03-24 	
-  xfce4-settings 	#4.20.1-1 	Xfce's Configuration System 	2025-02-09 	
-  xfce4-terminal 	#1.1.5-1 	A modern terminal emulator primarily for the Xfce desktop environment 	2025-03-26 	
-  xfconf 	#4.20.0-2 	D-Bus-based configuration storage system 	2024-12-25 	
-  xfdesktop 	#4.20.1-1 	Xfce's desktop manager 	2025-02-17 	
-  xfwm4 	 # Xfce's window manager
-  xfwm4-themes  	# A set of additional themes for the Xfce window manager
-  xfce4-goodies
-  lightdm
-  lightdm-settings
-  lightdm-slick-greeter
-  chili-skel
-  chili-utils
+	exo                 #4.20.0-2 	Application library for the Xfce desktop environment 	2024-12-25
+	garcon              #4.20.0-2 	Freedesktop.org compliant menu library 	2024-12-25
+	thunar              #4.20.2-1 	Modern, fast and easy-to-use file manager for Xfce 	2025-02-14
+	thunar-volman       #4.20.0-2 	Automatic management of removable drives and media for Thunar 	2024-12-25
+	tumbler             #4.20.0-2 	Thumbnail service implementing the thumbnail management D-Bus specification 	2024-12-25
+	xfce4-appfinder     #4.20.0-2 	Application launcher and finder 	2024-12-25
+	xfce4-panel         #4.20.4-1 	Panel for the Xfce desktop environment 	2025-03-23
+	xfce4-power-manager #4.20.0-3 	Power Manager for Xfce 	2024-12-25
+	xfce4-session       #4.20.2-1 	Xfce's session manager 	2025-03-24
+	xfce4-settings      #4.20.1-1 	Xfce's Configuration System 	2025-02-09
+	xfce4-terminal      #1.1.5-1 	A modern terminal emulator primarily for the Xfce desktop environment 	2025-03-26
+	xfconf              #4.20.0-2 	D-Bus-based configuration storage system 	2024-12-25
+	xfdesktop           #4.20.1-1 	Xfce's desktop manager 	2025-02-17
+	xfwm4               # Xfce's window manager
+	xfwm4-themes        # A set of additional themes for the Xfce window manager
+	xfce4-goodies
+	lightdm
+	lightdm-settings
+	lightdm-slick-greeter
+	chili-skel
+	chili-utils
+	#xorg
+	xorg-server   # Servidor gráfico Xorg.
+	xorg-xinit    # Iniciador para sessões X.
+	xorg-apps     # Conjunto de utilitários para Xorg
+	xorg-xrandr   # Configuração de telas.
+	xorg-xsetroot # Modifica fundo da raiz do X
+	xorg-xprop    # Exibe propriedades de janelas.
+	#wayland
+	wayland
+	xorg-xwayland
+	sway
+	weston
+	#video
+	mesa
+	xf86-video-intel
+	xf86-video-amdgpu
+	nvidia
+	nvidia-utils
+	nvidia-settings
+	xf86-video-nouveau
+	#input
+	xf86-input-libinput
+	xf86-input-synaptics
+	#fonts
+	ttf-dejavu
+	ttf-liberation
+	noto-fonts
+	noto-fonts-emoji
+	#theme
+	arc-gtk-theme
+	papirus-icon-theme
+	#audio
+	pipewire
+	pipewire-alsa
+	pipewire-pulse
+	wireplumber
+	#aceleradores
+	gvfs
+	thunar-archive-plugin
+	tumbler
 )
 
 # Automatically detect and use the correct install file
