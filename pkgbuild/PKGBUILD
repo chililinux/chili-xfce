@@ -39,6 +39,10 @@ optdepends=(
 	chili-skel
 	chili-utils
 	#xorg
+	xorg
+	xorg-drivers
+	xorg-fonts
+  #
 	xorg-server   # Servidor gráfico Xorg.
 	xorg-xinit    # Iniciador para sessões X.
 	xorg-apps     # Conjunto de utilitários para Xorg
