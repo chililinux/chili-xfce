@@ -45,6 +45,16 @@ optdepends=(
 	xorg-xrandr   # Configuração de telas.
 	xorg-xsetroot # Modifica fundo da raiz do X
 	xorg-xprop    # Exibe propriedades de janelas.
+	xfce4-screenshooter
+	xfce4-pulseaudio-plugin
+	xfce4-whiskermenu-plugin
+	xfce4-notifyd
+	xfce4-taskmanager
+	xfce4-datetime-plugin
+	xfce4-diskperf-plugin
+	xfce4-netload-plugin
+	xfce4-cpufreq-plugin
+	xfce4-weather-plugin
 	#wayland
 	wayland
 	xorg-xwayland
@@ -61,14 +71,19 @@ optdepends=(
 	#input
 	xf86-input-libinput
 	xf86-input-synaptics
+	xf86-input-evdev
 	#fonts
 	ttf-dejavu
 	ttf-liberation
 	noto-fonts
 	noto-fonts-emoji
+	noto-fonts-cjk
+	ttf-font-awesome
 	#theme
 	arc-gtk-theme
 	papirus-icon-theme
+	qt5ct
+	qt6ct
 	#audio
 	pipewire
 	pipewire-alsa
@@ -78,6 +93,40 @@ optdepends=(
 	gvfs
 	thunar-archive-plugin
 	tumbler
+	thunar
+	thunar-volman
+	ffmpegthumbnailer
+	unrar
+	p7zip
+	zip
+	unzip
+	#extras
+	xfwm4-themes
+	xfce4-screenshooter
+	xfce4-pulseaudio-plugin
+	xfce4-whiskermenu-plugin
+	xfce4-notifyd
+	xfce4-taskmanager
+	xfce4-datetime-plugin
+	xfce4-diskperf-plugin
+	xfce4-netload-plugin
+	xfce4-cpufreq-plugin
+	xfce4-weather-plugin
+	xfce4-terminal
+	mousepad
+	ristretto
+	parole
+	catfish
+	xfburn
+	#network
+	networkmanager
+	modemmanager
+	network-manager-applet
+	nm-connection-editor
+	#bluetooth
+	bluez
+	bluez-utils
+	blueman
 )
 
 # Automatically detect and use the correct install file
