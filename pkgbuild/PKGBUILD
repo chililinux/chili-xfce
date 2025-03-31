@@ -75,7 +75,7 @@ optdepends=(
 	#fonts
 	ttf-dejavu
 	ttf-liberation
-	noto-fonts-lite
+	noto-fonts
 	noto-fonts-emoji
 	noto-fonts-cjk
 	ttf-font-awesome
