@@ -129,6 +129,7 @@ optdepends=(
 	zip
 	unzip
 	#extras
+	mate-calc
 	xfwm4-themes
 	xfce4-screenshooter
 	xfce4-pulseaudio-plugin
@@ -152,6 +153,7 @@ optdepends=(
 	network-manager-applet
 	nm-connection-editor
 	#bluetooth
+	blueberry
 	bluez
 	bluez-utils
 	blueman
