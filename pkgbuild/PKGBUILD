@@ -129,6 +129,7 @@ optdepends=(
 	zip
 	unzip
 	#extras
+	firefox
 	mate-calc
 	xfwm4-themes
 	xfce4-screenshooter
