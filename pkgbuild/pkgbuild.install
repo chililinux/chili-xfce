@@ -199,14 +199,15 @@ post_install() {
   msg "Please wait, synchronizing databases..."
   synchronizing_database
 
-#	msg "Installing common packages: ${COMMON_PACKAGES[*]}"
+  msg "Removindo package jack2..."
+  pacman -S --quiet --noconfirm --overwrite \* pipewire-jack &>/dev/null
+
   msg "Installing common packages..."
 	install_packages "${COMMON_PACKAGES[@]}"
 
   msg "Checking for the existence of packages..."
   sh_check_package_exist
 
-#	msg "Installing optdepends packages: ${OPTDEPENDS[*]}"
 	msg "Installing optdepends packages..."
 	install_packages "${OPTDEPENDS[@]}"
 
