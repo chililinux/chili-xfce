@@ -1,0 +1,13 @@
+[CLIENT] 0x2200003
+  [CLIENT_ID] 217a39977-8db3-4813-ab88-1ac107891701
+  [CLIENT_LEADER] 0x2200001
+  [WINDOW_ROLE] xfce4-terminal-1743685045-3112776505
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - live@chililinux: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (0,51,1280,749)
+  [GEOMETRY-MAXIMIZED] (5,56,737,506)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
