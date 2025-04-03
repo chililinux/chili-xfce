@@ -17,159 +17,189 @@ depends=(
 	xfce4-session
 )
 optdepends=(
-	exo                 #4.20.0-2 	Application library for the Xfce desktop environment 	2024-12-25
-	garcon              #4.20.0-2 	Freedesktop.org compliant menu library 	2024-12-25
-	thunar              #4.20.2-1 	Modern, fast and easy-to-use file manager for Xfce 	2025-02-14
-	thunar-volman       #4.20.0-2 	Automatic management of removable drives and media for Thunar 	2024-12-25
-	tumbler             #4.20.0-2 	Thumbnail service implementing the thumbnail management D-Bus specification 	2024-12-25
-	xfce4-appfinder     #4.20.0-2 	Application launcher and finder 	2024-12-25
-	xfce4-panel         #4.20.4-1 	Panel for the Xfce desktop environment 	2025-03-23
-	xfce4-power-manager #4.20.0-3 	Power Manager for Xfce 	2024-12-25
-	xfce4-session       #4.20.2-1 	Xfce's session manager 	2025-03-24
-	xfce4-settings      #4.20.1-1 	Xfce's Configuration System 	2025-02-09
-	xfce4-terminal      #1.1.5-1 	A modern terminal emulator primarily for the Xfce desktop environment 	2025-03-26
-	xfconf              #4.20.0-2 	D-Bus-based configuration storage system 	2024-12-25
-	xfdesktop           #4.20.1-1 	Xfce's desktop manager 	2025-02-17
-	xfwm4               # Xfce's window manager
-	xfwm4-themes        # A set of additional themes for the Xfce window manager
-	xfce4-goodies
-	lightdm
-	lightdm-settings
-	lightdm-slick-greeter
+	acpid                   # Gerenciamento de eventos de energia
+	adapta-gtk-theme        # An adaptive Gtk+ theme based on Material Design Guideline
+	adapta-gtk-theme        # An adaptive Gtk+ theme based on Material Design Guideline
+	arc-gtk-theme           # A flat theme with transparent elements for GTK 2,3,4 and Gnome-Shell
+	arc-icon-theme          # Arc icon theme. Official releases only
+	auto-tweaks-browser     # Aplica ajustes automáticos ao navegador para otimizar seu desempenho e funcionalidade.
+	beauty-icon-theme
+	bigbashview             # BigBashView is a python app to run Bash+HTML in a Desktop WebView
+	bigcontrolcenter-base   # Base para o Big Control Center, interface de gerenciamento do sistema.
+	bigocrpdf               # Converte documentos PDF em texto editável via OCR.
+	big-store               # Gerenciador de grandes volumes de dados.
+	blueberry
+	blueman                 # Gerenciador de Bluetooth
+	bluez-cups              # Permite impressão via Bluetooth usando o BlueZ.
+	bluez                   # Suporte a Bluetooth
+	bluez-utils
+	brisk-menu              # Modern, efficient menu for the MATE Desktop Environment
+	caja
+	#nautilus                 # Gerenciador de arquivos do GNOME.
+	capitaine-cursors
+	catfish
+	chili-clonedisk
+	chili-datetime
+	chili-iso2usb
+	chili-nano-config
 	chili-skel
 	chili-utils
+	chili-xfce-config
+	chili-xfce-skel
+	chili-xfce-wallpapers
+	chili-xfwm-axiomd-theme
+	comm-base-config
+	comm-restore-config     # Restaura configurações padrão de aplicativos de comunicação.
+	chili-webapps           # Integra aplicativos web ao ambiente de desktop.
+	conky                   # Light-weight system monitor for X, Wayland, and other things, too
+	conky-manager2          # GUI for managing Conky config files with options to browse and edit themes
+	cups-pdf                # Extensão do CUPS para criar PDFs via impressão.
+	cups                    # Sistema de impressão comum no Linux.
+	ecrire                  # Processador de texto leve.
+	eog                     # Eye of Gnome: An image viewing and cataloging program
+	exo                     # Application library for the Xfce desktop environment 	2024-12-25
+	ffmpegthumbnailer
+	firefox                 # Navegador web popular e de código aberto, focado na privacidade e segurança.
+	fprintd                 # Suporte a leitores de impressão digital
+	garcon                  # Freedesktop.org compliant menu library 	2024-12-25
+	geoclue                 # Serviço de geolocalização
+	gnome-disk-utility      # Utilitário gráfico para gerenciar discos e dispositivos de armazenamento.
+	gparted
+	grub-btrfs             # Permite que o GRUB reconheça snapshots do Btrfs.
+	grub-btrfs-timeshift   # Integra o Timeshift ao GRUB em sistemas Btrfs.
+	gvfs-afc       # Backend para dispositivos móveis da Apple (AFC)
+	gvfs-dnssd     # Backend para DNS-SD e WebDAV (compartilhamento macOS)
+	gvfs-goa       # Backend para Gnome Online Accounts (OwnCloud, etc.)
+	gvfs-google    # Backend para Google Drive
+	gvfs-gphoto2   # Backend para câmeras PTP e dispositivos MTP
+	gvfs           # Implementação do sistema de arquivos virtual para GIO
+	gvfs-mtp       # Backend para dispositivos MTP (Android, media players)
+	gvfs-nfs       # Backend para NFS
+	gvfs-onedrive  # Backend para Microsoft OneDrive
+	gvfs-smb       # Backend para compartilhamento de arquivos SMB/CIFS (Windows)
+	gvfs-wsdd      # Backend para descoberta de serviços Web Services Dynamic Discovery (Windows)
+	lib32-libxxf86vm        # X11 XFree86 video mode extension library (32-bit)
+	libreoffice-fresh-pt-br # Portuguese (Brasil) language pack for LibreOffice Fresh
+	libxxf86vm              # X11 XFree86 video mode extension library
+	lightdm                 # Gerenciador de login leve
+	lightdm-gtk-greeter     # Interface gráfica para LightDM
+	lightdm-settings
+	lightdm-slick-greeter
+	#lxdm                     # Gerenciador de login leve e rápido, usado principalmente no LXDE.
+	#sddm                   # Gerenciador de login moderno, compatível com Wayland
+	mate-calc
+	mesa
+	modemmanager
+	mousepad
+	networkmanager
+	network-manager-applet # Ícone de gerenciamento de rede
+	nm-connection-editor
+	noto-fonts
+	noto-fonts-cjk
+	noto-fonts-emoji
+	nvidia
+	nvidia-settings
+	nvidia-utils
+	p7zip
+	packagekit             # Integração com gerenciadores de pacotes
+	papirus-icon-theme
+	parole
+	paru                   # AUR helper para instalação de pacotes do Arch User Repository.
+	pavucontrol    # Controle de volume para PulseAudio
+	pipewire-alsa  # Low-latency audio/video router and processor - ALSA configuration
+	pipewire       # Alternativa moderna ao PulseAudio para áudio
+	pipewire-jack  # Low-latency audio/video router and processor - JACK replacement
+	pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
+	plank          # Elegant, simple, clean dock
+	qt6ct
+	ristretto
+	samsung-unified-driver # Drivers unificados para diversas impressoras Samsung.
+	simplescreenrecorder    # A feature-rich screen recorder that supports X11 and OpenGL
+	splix                  # Driver de impressão para impressoras Samsung e Xerox.
+	sway
+	system-config-printer  # Ferramenta gráfica para configurar e gerenciar impressoras.
+	thunar                  # Modern, fast and easy-to-use file manager for Xfce 	2025-02-14
+	thunar-archive-plugin
+	thunar-volman           #	Automatic management of removable drives and media for Thunar 	2024-12-25
+	timeshift               # Ferramenta para criar snapshots incrementais do sistema.
+	ttf-dejavu
+	ttf-fira-mono
+	ttf-font-awesome
+	ttf-inconsolata-go-nerd  # Patched font Inconsolata Go from nerd fonts library
+	ttf-inconsolata-lgc-nerd # Patched font Inconsolata LGC from nerd fonts library
+	ttf-inconsolata          # Monospace font for pretty code listings and for the terminal
+	ttf-inconsolata-nerd     # Patched font Inconsolata from nerd fonts library
+	ttf-liberation
+	tumbler                   # Thumbnail service implementing the thumbnail management D-Bus specification 	2024-12-25
+	unrar
+	unzip
+	vlc                       # Multi-platform MPEG, VCD/DVD, and DivX player
+	# Wayland
+	wayland       # Protocolo Wayland
+	wayland-utils # Ferramentas para Wayland
+	wireplumber    # Gerenciador de sessão para PipeWire
+	wlroots       # Biblioteca para composição no Wayland
+	wlr-randr     # Alternativa ao xrandr para Wayland
+	#waybar       # Barra de status alternativa para Wayland
+	xf86-input-elographics # X.org Elographics TouchScreen input driver
+	xf86-input-evdev       # X.org evdev input driver
+	xf86-input-libinput    # Generic input driver for the X.Org server based on libinput
+	xf86-input-synaptics   # Synaptics driver for notebook touchpads
+	xf86-input-vmmouse     # X.org VMWare Mouse input driver
+	xf86-input-void        # X.org void input driver
+	xf86-input-wacom       # X.Org Wacom tablet driver
+	xf86-video-amdgpu      # X.org amdgpu video driver
+	xf86-video-ati         # X.org ati video driver
+	xf86-video-dummy       # X.org dummy video driver
+	xf86-video-fbdev       # X.org framebuffer video driver
+	xf86-video-intel       # X.org Intel i810/i830/i915/945G/G965+ video drivers
+	xf86-video-nouveau     # Open Source 3D acceleration driver for nVidia cards
+	xf86-video-qxl         # Xorg X11 qxl video driver
+	xf86-video-sisusb      # X.org SiS USB video driver
+	xf86-video-sis         # X.org SiS video driver
+	xf86-video-vesa        # X.org vesa video driver
+	xf86-video-vmware      # X.org vmware video driver
+	xf86-video-voodoo      # X.org 3dfx Voodoo1/Voodoo2 2D video driver
+	xfburn
+	xfce4-appfinder     #4.20.0-2 	Application launcher and finder 	2024-12-25
+	xfce4-cpufreq-plugin
+	xfce4-datetime-plugin
+	xfce4-diskperf-plugin
+	xfce4-docklike-plugin
+	xfce4-goodies
+	xfce4-netload-plugin
+	xfce4-notifyd
+	xfce4-panel         #4.20.4-1 	Panel for the Xfce desktop environment 	2025-03-23
+	xfce4-power-manager #4.20.0-3 	Power Manager for Xfce 	2024-12-25
+	xfce4-pulseaudio-plugin
+	xfce4-screenshooter
+	xfce4-session       #4.20.2-1 	Xfce's session manager 	2025-03-24
+	xfce4-settings      #4.20.1-1 	Xfce's Configuration System 	2025-02-09
+	xfce4-taskmanager
+	xfce4-terminal      # Terminal alternativo baseado no XFCE
+	xfce4-weather-plugin
+	xfce4-whiskermenu-plugin
+	xfconf              #4.20.0-2 	D-Bus-based configuration storage system 	2024-12-25
+	xfdesktop           #4.20.1-1 	Xfce's desktop manager 	2025-02-17
+	xfwm4-themes        # A set of additional themes for the Xfce window manager
+	xfwm4               # Xfce's window manager
 	#xorg
 	xorg
+	xorg-apps     # Conjunto de utilitários para Xorg
+	xorg-apps     # Conjunto de utilitários para Xorg
 	xorg-drivers
 	xorg-fonts
-	xterm
-  #
 	xorg-server   # Servidor gráfico Xorg.
 	xorg-xinit    # Iniciador para sessões X.
-	xorg-apps     # Conjunto de utilitários para Xorg
-	xorg-xrandr   # Configuração de telas.
-	xorg-xsetroot # Modifica fundo da raiz do X
 	xorg-xprop    # Exibe propriedades de janelas.
-	xfce4-screenshooter
-	xfce4-pulseaudio-plugin
-	xfce4-whiskermenu-plugin
-	xfce4-notifyd
-	xfce4-taskmanager
-	xfce4-datetime-plugin
-	xfce4-diskperf-plugin
-	xfce4-netload-plugin
-	xfce4-cpufreq-plugin
-	xfce4-weather-plugin
-	#wayland
-	wayland
+	xorg-xrandr   # Configuração de telas.
+	xorg-xrdb     # Banco de dados de recursos do X
+	xorg-xsetroot # Modifica fundo da raiz do X
 	xorg-xwayland
-	sway
-	weston
-	#video
-  libxxf86vm              # X11 XFree86 video mode extension library
-  xf86-video-amdgpu       # X.org amdgpu video driver
-  xf86-video-ati          # X.org ati video driver
-  xf86-input-elographics  # X.org Elographics TouchScreen input driver
-  xf86-input-evdev        # X.org evdev input driver
-  xf86-input-libinput     # Generic input driver for the X.Org server based on libinput
-  xf86-input-synaptics    # Synaptics driver for notebook touchpads
-  xf86-input-vmmouse      # X.org VMWare Mouse input driver
-  xf86-input-void         # X.org void input driver
-  xf86-input-wacom        # X.Org Wacom tablet driver
-  xf86-video-dummy        # X.org dummy video driver
-  xf86-video-fbdev        # X.org framebuffer video driver
-  xf86-video-intel        # X.org Intel i810/i830/i915/945G/G965+ video drivers
-  xf86-video-nouveau      # Open Source 3D acceleration driver for nVidia cards
-  xf86-video-qxl          # Xorg X11 qxl video driver
-  xf86-video-sisusb       # X.org SiS USB video driver
-  xf86-video-vesa         # X.org vesa video driver
-  xf86-video-vmware       # X.org vmware video driver
-  xf86-video-voodoo       # X.org 3dfx Voodoo1/Voodoo2 2D video driver
-  lib32-libxxf86vm        # X11 XFree86 video mode extension library (32-bit)
-  xf86-video-sis          # X.org SiS video driver
-  gnome-disk-utility
-  gparted
-	mesa
-	xf86-video-intel
-	xf86-video-amdgpu
-	nvidia
-	nvidia-utils
-	nvidia-settings
-	xf86-video-nouveau
-	#input
-	xf86-input-libinput
-	xf86-input-synaptics
-	xf86-input-evdev
-	#fonts
-	ttf-dejavu
-	ttf-liberation
-	noto-fonts
-	noto-fonts-emoji
-	noto-fonts-cjk
-	ttf-font-awesome
-	#theme
-	arc-gtk-theme
-	papirus-icon-theme
-	qt5ct
-	qt6ct
-	#audio
-	pipewire
-	pipewire-alsa
-	pipewire-pulse
-	wireplumber
-	#aceleradores
-	gvfs
-	thunar-archive-plugin
-	tumbler
-	thunar
-	thunar-volman
-	ffmpegthumbnailer
-	unrar
-	p7zip
+	xorg-xwayland # Suporte para aplicativos X11 no Wayland
+	xorg-xwayland # Suporte para aplicativos X11 no Wayland
+	xterm          # Terminal padrão do Xorg
 	zip
-	unzip
-	#extras
-	firefox
-	mate-calc
-	xfwm4-themes
-	xfce4-screenshooter
-	xfce4-pulseaudio-plugin
-	xfce4-whiskermenu-plugin
-	xfce4-notifyd
-	xfce4-taskmanager
-	xfce4-datetime-plugin
-	xfce4-diskperf-plugin
-	xfce4-netload-plugin
-	xfce4-cpufreq-plugin
-	xfce4-weather-plugin
-	xfce4-terminal
-	mousepad
-	ristretto
-	parole
-	catfish
-	xfburn
-	#network
-	networkmanager
-	modemmanager
-	network-manager-applet
-	nm-connection-editor
-	#bluetooth
-	blueberry
-	bluez
-	bluez-utils
-	blueman
-  timeshift                # Ferramenta para criar snapshots incrementais do sistema.
-  grub-btrfs-timeshift     # Integra o Timeshift ao GRUB em sistemas Btrfs.
-  grub-btrfs               # Permite que o GRUB reconheça snapshots do Btrfs.
-  cups                     # Sistema de impressão comum no Linux.
-  system-config-printer    # Ferramenta gráfica para configurar e gerenciar impressoras.
-  splix                    # Driver de impressão para impressoras Samsung e Xerox.
-  samsung-unified-driver   # Drivers unificados para diversas impressoras Samsung.
-  cups-pdf                 # Extensão do CUPS para criar PDFs via impressão.
-  bigocrpdf                # Converte documentos PDF em texto editável via OCR.
-  bluez-cups               # Permite impressão via Bluetooth usando o BlueZ.
-  paru                     # AUR helper para instalação de pacotes do Arch User Repository.
-
 )
 
 # Automatically detect and use the correct install file
