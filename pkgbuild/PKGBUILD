@@ -45,7 +45,6 @@ optdepends=(
 	chili-skel
 	chili-utils
 	chili-xfce-config
-	chili-xfce-skel
 	chili-xfce-wallpapers
 	chili-xfwm-axiomd-theme
 	chili-base-config
