@@ -48,7 +48,7 @@ optdepends=(
 	chili-xfce-wallpapers
 	chili-xfwm-axiomd-theme
 	chili-base-config
-	comm-restore-config     # Restaura configurações padrão de aplicativos de comunicação.
+	chili-restore-config    # Restaura configurações padrão de aplicativos de comunicação.
 	chili-webapps           # Integra aplicativos web ao ambiente de desktop.
 	conky                   # Light-weight system monitor for X, Wayland, and other things, too
 	conky-manager2          # GUI for managing Conky config files with options to browse and edit themes
@@ -59,6 +59,7 @@ optdepends=(
 	exo                     # Application library for the Xfce desktop environment 	2024-12-25
 	ffmpegthumbnailer
 	firefox                 # Navegador web popular e de código aberto, focado na privacidade e segurança.
+	firefox-i18n-pt-br      # Portuguese (Brazilian) language pack for Firefox
 	fprintd                 # Suporte a leitores de impressão digital
 	garcon                  # Freedesktop.org compliant menu library 	2024-12-25
 	geoclue                 # Serviço de geolocalização
@@ -159,7 +160,6 @@ optdepends=(
 	xf86-video-vesa        # X.org vesa video driver
 	xf86-video-vmware      # X.org vmware video driver
 	xf86-video-voodoo      # X.org 3dfx Voodoo1/Voodoo2 2D video driver
-	xfburn
 	xfce4-appfinder     #4.20.0-2 	Application launcher and finder 	2024-12-25
 	xfce4-cpufreq-plugin
 	xfce4-datetime-plugin
